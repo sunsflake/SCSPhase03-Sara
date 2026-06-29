@@ -3,7 +3,7 @@
 **Student:** Sara Perovic | Matriculation number: 1058826
 **Course:** E-Commerce · TH Rosenheim · SPO 2022
 **Client:** Scheiffele-Schmiederer KG (SCS) · scs-holzshop.de
-**Live URL:** https://sunsflake.github.io/SCS-Phase-3-/index.html
+**Live URL:** https://sunsflake.github.io/SCSPhase03-Sara/index.html
 **Password:** scs2026
 **Submission date:** June 2026
 **Live until:** 31 July 2026 minimum (GitHub Pages, free tier, no expiry)
@@ -20,31 +20,30 @@ It is built as a direct response to findings from Phase 1 (competitor analysis a
 
 ## Project history and phase decisions
 
-### Phase 1 — Competitor analysis
+### Phase 1: Competitor analysis
 
-Phase 1 involved a structured competitor analysis of two companies: HolzLand.de (B2C timber sales) and EasyCarport.de (carport configurators). The analysis produced Balanced Scorecards, Customer Journey Maps, PDP Scorecards, Organic Search Scorecards, and Communication Channel Scorecards for each competitor.
-
+The analysis produced Balanced Scorecards, Customer Journey Maps, PDP Scorecards, Organic Search Scorecards, and Communication Channel Scorecards for each competitor.
 The most significant finding from the carport segment was that EasyCarport.de scored 10/10 on pricing clarity in the PDP Scorecard. EasyCarport shows a live price update with every option selected in its configurator, making the cost of each choice immediately visible. The SCS configurator updated the total price but did not show what each individual selection contributed. This was identified as the primary conversion risk for SCS: buyers working within a personal budget had no way to understand what was driving the price without mentally subtracting previous totals.
 
 A second finding was that the SCS PDP showed only a single starting price (€4,833.84 for the Einzelcarport) with no indication of the realistic price range. Since the starting price is the minimum base configuration and most buyers configure significantly above it, this set a misleading price anchor before the buyer even entered the configurator.
 
-### Phase 2 — Hypothesis testing and prototypes
+### Phase 2: Hypothesis testing and prototypes
 
 Phase 2 produced two hypotheses tested in a UX lab using Tobii eye tracking software with a think-aloud protocol.
 
 **Hypothesis 1 (configurator, teammate):** Showing the individual cost of each selectable option alongside the running total reduces buyer uncertainty and increases configuration completion rate.
 
-**Hypothesis 2 (PDP, Sara Perovic):** Showing a realistic price range on the SCS carport PDP rather than a single starting price reduces sticker shock at the configuration summary step and produces more committed buyers.
+**Hypothesis 2 (PDP):** Showing a realistic price range on the SCS carport PDP rather than a single starting price reduces sticker shock at the configuration summary step and produces more committed buyers.
 
 The user test used A/B testing: one group saw the current SCS page with only the starting price, the other saw a static image showing a price range. Participants stated their budget expectation before configuring and then compared it to the summary total. Eye tracking data (TTFF, Dwell Time, Fixation Count) was used alongside think-aloud verbalisations to measure surprise and hesitation at the summary step.
 
-Results showed that participants anchored to the starting price and expressed hesitation when they reached the configured total. Elevated fixation counts on the summary price indicated re-reading consistent with unexpected numbers. The debriefing confirmed that participants expected the final price to stay close to the PDP starting price.
+Results showed that participants focused on the starting price and expressed hesitation when they reached the configured total. Elevated fixation counts on the summary price indicated re-reading consistent with unexpected numbers. The debriefing confirmed that participants expected the final price to stay very close to the PDP starting price or even be the same as shown.
 
 Phase 2 produced two separate HTML prototypes:
 - Prototype 1 (configurator): https://sunsflake.github.io/SCS-Carport-Configurator---Hypothesis-1---Per-option-price-delta/prototype1_configurator.html
 - Prototype 2 (PDP): https://sunsflake.github.io/SCS-PDP---Hypothesis-2---Range/prototype2_landing.html
 
-### Phase 3 — This prototype
+### Phase 3: This final prototype
 
 Phase 3 integrates both hypotheses into a single connected prototype covering the full buyer journey: PDP landing page → configurator → configuration summary. The Phase 2 prototypes were separate files; this prototype connects them into one seamless flow. It is built as a maintainable, portable single HTML file with no build tools or external dependencies beyond Google Fonts.
 
@@ -120,12 +119,7 @@ The screenshot below shows the v1.0 state of the landing page before v1.1 change
 1. Download `index.html` from this repository
 2. Open it in any modern browser
 3. Enter password: `scs2026`
-4. No server, build step, or additional tools required
 
-## How to run from the live URL
-
-1. Go to: https://sunsflake.github.io/SCS-Phase-3-/index.html
-2. Enter password: `scs2026`
 
 ---
 
