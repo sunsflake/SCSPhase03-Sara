@@ -1,11 +1,11 @@
-# SCS Carport Configurator — Phase 3 Prototype
+# SCS Carport Configurator: Phase 3 Prototype
 
 **Student:** Sara Perovic | Matriculation number: 1058826
 **Client:** Scheiffele-Schmiederer KG (SCS) ( scs-holzshop.de)
 **Live URL:** https://sunsflake.github.io/SCSPhase03-Sara/index.html
 **Password:** scs2026
 **Submission date:** June 2026
----
+
 
 ## What this prototype is
 
@@ -13,7 +13,7 @@ This is a fully connected hi-fi prototype of the SCS carport configurator flow b
 
 It is built as a direct response to findings from Phase 1 (competitor analysis and PDP evaluation) and Phase 2 (hypothesis testing with Tobii eye tracking). Every design decision connects to a specific finding from those phases.
 
----
+
 
 ## Project history and phase decisions
 
