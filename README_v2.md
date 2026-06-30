@@ -69,23 +69,18 @@ A simplified two-column table on the landing page explains what drives the price
 ### Password protection
 The prototype uses a JavaScript password prompt (password: scs2026). A production implementation would use server-side authentication.
 
----
 
 ## Version history
 
 | Version | Changes |
-| v0.1  | Initial Phase 2 PDP prototype. Static image, price range display only, no configurator connection (Hypothesis 2). |
-| v0.2 | Phase 2 configurator prototype. Separate file, per-option price change, no connection to PDP (Hypothesis 1). |
-| v0.3 | Phase 3 prototype. Single connected HTML file covering full buyer journey: PDP to configurator to summary. Password protection added. Price range displayed without bar or typical price label. Trust signals on cards. Full breakdown table. SCS yellow (#F5A800) used as primary accent colour throughout. |
-| v1.0 Final prototype | Redundant category tag above each card title removed. Base price sentence removed from under the price range as it added unnecessary information at the decision point. Font changed for a cleaner, more distinctive typographic identity. Breakdown table simplified from three columns to two, removing the "Base value" column to reduce visual noise. |
+- | v0.1  | Initial Phase 2 PDP prototype. Static image, price range display only, no configurator connection (Hypothesis 2). |
+- | v0.2 | Phase 2 configurator prototype. Separate file, per-option price change, no connection to PDP (Hypothesis 1). |
+- | v0.3 | Phase 3 prototype. Single connected HTML file covering full buyer journey: PDP to configurator to summary. Password protection added. Price range displayed without bar or typical price label. Trust signals on cards. Full breakdown table. SCS yellow (#F5A800) used as primary accent colour throughout. |
+- | v1.0 Final prototype | Redundant category tag above each card title removed. Base price sentence removed from under the price range as it added unnecessary information at the decision point. Font changed for a cleaner, more distinctive typographic identity. Breakdown table simplified from three columns to two, removing the "Base value" column to reduce visual noise. |
 
----
 
 ## Decision notes on final changes
 
-
-**Removing the category tag above the title**
-Each card previously had a small pill label ("SINGLE CARPORT") directly above the product title ("SCS Einzelcarport"). With the title renamed to "Single Carport", the tag became a direct repetition of the same information. It was removed to reduce visual clutter and let the title carry the information on its own.
 
 **Removing the base price sentence**
 The sentence "Base price €4,833. Final price depends on roof type, covering, size, and side cladding selected" appeared below the price range on each card. The Phase 2 hypothesis and test were specifically designed to test whether showing a range (without a single anchor figure) reduces sticker shock. Removing it keeps the price communication consistent with the hypothesis intent.
@@ -95,7 +90,6 @@ The sentence "Base price €4,833. Final price depends on roof type, covering, s
 The original table had three columns: option, base value, and maximum additional cost. The base value column (showing things like "Lean-to roof (Pultdach)" and "3.0 x 5.0 m standard") added length without helping the buyer understand the price. The simplified two-column version shows only what the buyer needs: what the option is and how much it can add to their total.
 
 
----
 
 ## How to run locally
 
