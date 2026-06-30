@@ -1,7 +1,6 @@
 # SCS Carport Configurator: Phase 3 Prototype
 
 **Student:** Sara Perovic | Matriculation number: 1058826
-**Client:** Scheiffele-Schmiederer KG (SCS) ( scs-holzshop.de)
 **Live URL:** https://sunsflake.github.io/SCSPhase03-Sara/index.html
 **Password:** scs2026
 **Submission date:** June 2026
